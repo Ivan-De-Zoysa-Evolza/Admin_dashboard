@@ -4,8 +4,8 @@ import "github.com/gofiber/fiber/v2"
 
 // Dummy users for example
 var users = []map[string]string{
-	{"id": "1", "name": "Alice"},
-	{"id": "2", "name": "Bob"},
+	{"id": "1", "name": "Ivan"},
+	{"id": "2", "name": "Nimesha"},
 }
 
 // GetStats returns dashboard statistics

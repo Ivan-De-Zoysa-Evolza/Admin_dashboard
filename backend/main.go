@@ -9,7 +9,7 @@ import (
 func main() {
 	app := fiber.New()
 
-	// Optional: Root route to test backend is running
+	//Root route to test backend is running
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.SendString("Backend is running")
 	})
